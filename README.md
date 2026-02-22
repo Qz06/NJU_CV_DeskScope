@@ -4,5 +4,6 @@
 
 **注：**
 1. 项目中使用的SAM3模型已配置进环境变量。
-2. YOLO权重（models\yolo\best.pt）未上传，如需要请在huggingface下载
+2. YOLO权重（models\yolo\best.pt）未上传，如需要请在huggingface下载*下载链接 https://huggingface.co/hhh134/YOLO*
+
 3. 使用方式：配置好环境后，运行`streamlit run gui/web.py`
