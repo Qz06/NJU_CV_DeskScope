@@ -1,0 +1,752 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-22T14:48:39.838288",
+    "desk_area": 0,
+    "img_size": [
+      4284,
+      5712
+    ],
+    "source_json": "D:\\CODE\\CV\\cv_deskscope\\data\\refined_json\\web_refined.json"
+  },
+  "objects_raw": [
+    {
+      "name": "mouse pad",
+      "bbox_xyxy": [
+        3869.62158203125,
+        1824.31005859375,
+        5320.43310546875,
+        3110.26611328125
+      ],
+      "confidence": 0.9700769186019897
+    },
+    {
+      "name": "thermos cup",
+      "bbox_xyxy": [
+        4752.083984375,
+        1253.28955078125,
+        5711.9375,
+        2333.79248046875
+      ],
+      "confidence": 0.9658020734786987
+    },
+    {
+      "name": "paper",
+      "bbox_xyxy": [
+        420.3389587402344,
+        2056.1455078125,
+        2250.7744140625,
+        4160.18115234375
+      ],
+      "confidence": 0.9596686959266663
+    },
+    {
+      "name": "laptop",
+      "bbox_xyxy": [
+        1293.749755859375,
+        8.997722625732422,
+        4364.30810546875,
+        2620.60302734375
+      ],
+      "confidence": 0.9581378698348999
+    },
+    {
+      "name": "folder",
+      "bbox_xyxy": [
+        3644.25439453125,
+        2473.318603515625,
+        5324.361328125,
+        4281.31640625
+      ],
+      "confidence": 0.9547234773635864
+    },
+    {
+      "name": "cup",
+      "bbox_xyxy": [
+        885.9249267578125,
+        1099.1085205078125,
+        1683.521728515625,
+        1848.6832275390625
+      ],
+      "confidence": 0.9474392533302307
+    },
+    {
+      "name": "tissue",
+      "bbox_xyxy": [
+        4440.47998046875,
+        1153.2535400390625,
+        5172.0986328125,
+        1970.3126220703125
+      ],
+      "confidence": 0.9463909864425659
+    },
+    {
+      "name": "keyboard",
+      "bbox_xyxy": [
+        1999.8443603515625,
+        2582.58447265625,
+        3785.801025390625,
+        3487.161376953125
+      ],
+      "confidence": 0.9359356760978699
+    },
+    {
+      "name": "mouse",
+      "bbox_xyxy": [
+        4430.01220703125,
+        2151.31884765625,
+        5039.568359375,
+        2905.69921875
+      ],
+      "confidence": 0.9350662231445312
+    },
+    {
+      "name": "clock",
+      "bbox_xyxy": [
+        313.8160400390625,
+        1720.921630859375,
+        823.607666015625,
+        2286.258056640625
+      ],
+      "confidence": 0.9075013995170593
+    },
+    {
+      "name": "bottle",
+      "bbox_xyxy": [
+        299.7436828613281,
+        1422.4156494140625,
+        799.1098022460938,
+        1865.81884765625
+      ],
+      "confidence": 0.8887177109718323
+    },
+    {
+      "name": "cable",
+      "bbox_xyxy": [
+        5129.37890625,
+        3304.4736328125,
+        5711.90087890625,
+        4283.85791015625
+      ],
+      "confidence": 0.7001098990440369
+    },
+    {
+      "name": "folder",
+      "bbox_xyxy": [
+        0.0,
+        3670.74951171875,
+        1704.8779296875,
+        4283.83740234375
+      ],
+      "confidence": 0.6393330693244934
+    }
+  ],
+  "objects_clean": [
+    {
+      "name": "mouse pad",
+      "class": "smallStuff",
+      "area": 1865679.862774849,
+      "center": [
+        4595.02734375,
+        2467.2880859375
+      ],
+      "bbox": [
+        3869.62158203125,
+        1824.31005859375,
+        5320.43310546875,
+        3110.26611328125
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "thermos cup",
+      "class": "foodAndDrink",
+      "area": 1037124.535703659,
+      "center": [
+        5232.0107421875,
+        1793.541015625
+      ],
+      "bbox": [
+        4752.083984375,
+        1253.28955078125,
+        5711.9375,
+        2333.79248046875
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "paper",
+      "class": "learning",
+      "area": 3851301.443011835,
+      "center": [
+        1335.5566864013672,
+        3108.163330078125
+      ],
+      "bbox": [
+        420.3389587402344,
+        2056.1455078125,
+        2250.7744140625,
+        4160.18115234375
+      ],
+      "is_learning_related": true,
+      "is_messy_related": true,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "paper",
+        "normalized_contour_variance": 0.12604850752305358,
+        "convexity_ratio": 0.8834905565903584,
+        "mask_area": 220559.0,
+        "aspect_ratio": 0.5076452599388379
+      }
+    },
+    {
+      "name": "laptop",
+      "class": "electronics",
+      "area": 8019086.474286045,
+      "center": [
+        2829.0289306640625,
+        1314.8003749847412
+      ],
+      "bbox": [
+        1293.749755859375,
+        8.997722625732422,
+        4364.30810546875,
+        2620.60302734375
+      ],
+      "is_learning_related": true,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "folder",
+      "class": null,
+      "area": 3037629.6442962885,
+      "center": [
+        4484.307861328125,
+        3377.3175048828125
+      ],
+      "bbox": [
+        3644.25439453125,
+        2473.318603515625,
+        5324.361328125,
+        4281.31640625
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "folder",
+        "normalized_contour_variance": 0.02287468767073175,
+        "convexity_ratio": 0.9886999778211121,
+        "mask_area": 1631570.5,
+        "aspect_ratio": 0.9211850195640022
+      }
+    },
+    {
+      "name": "cup",
+      "class": "foodAndDrink",
+      "area": 597858.3890066743,
+      "center": [
+        1284.7233276367188,
+        1473.8958740234375
+      ],
+      "bbox": [
+        885.9249267578125,
+        1099.1085205078125,
+        1683.521728515625,
+        1848.6832275390625
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "cup",
+        "normalized_contour_variance": 0.012892202887178074,
+        "convexity_ratio": 0.9460564892379507,
+        "mask_area": 379801.0,
+        "aspect_ratio": 1.0182584269662922
+      }
+    },
+    {
+      "name": "tissue",
+      "class": "garbageAndDirty",
+      "area": 597775.6644809246,
+      "center": [
+        4806.289306640625,
+        1561.7830810546875
+      ],
+      "bbox": [
+        4440.47998046875,
+        1153.2535400390625,
+        5172.0986328125,
+        1970.3126220703125
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": true,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "tissue",
+        "normalized_contour_variance": 0.019567827302115034,
+        "convexity_ratio": 0.9608820236544116,
+        "mask_area": 372054.0,
+        "aspect_ratio": 0.9166666666666666
+      }
+    },
+    {
+      "name": "keyboard",
+      "class": "electronics",
+      "area": 1615535.151269406,
+      "center": [
+        2892.8226928710938,
+        3034.8729248046875
+      ],
+      "bbox": [
+        1999.8443603515625,
+        2582.58447265625,
+        3785.801025390625,
+        3487.161376953125
+      ],
+      "is_learning_related": true,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "mouse",
+      "class": "electronics",
+      "area": 459837.19640755653,
+      "center": [
+        4734.790283203125,
+        2528.509033203125
+      ],
+      "bbox": [
+        4430.01220703125,
+        2151.31884765625,
+        5039.568359375,
+        2905.69921875
+      ],
+      "is_learning_related": true,
+      "is_messy_related": true,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "clock",
+      "class": null,
+      "area": 288203.7757228017,
+      "center": [
+        568.7118530273438,
+        2003.58984375
+      ],
+      "bbox": [
+        313.8160400390625,
+        1720.921630859375,
+        823.607666015625,
+        2286.258056640625
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": true
+    },
+    {
+      "name": "bottle",
+      "class": "foodAndDrink",
+      "area": 221420.5344289951,
+      "center": [
+        549.4267425537109,
+        1644.1172485351562
+      ],
+      "bbox": [
+        299.7436828613281,
+        1422.4156494140625,
+        799.1098022460938,
+        1865.81884765625
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "bottle",
+        "normalized_contour_variance": 0.1730908986205149,
+        "convexity_ratio": 0.8852569243106533,
+        "mask_area": 71754.5,
+        "aspect_ratio": 1.0364464692482915
+      }
+    },
+    {
+      "name": "cable",
+      "class": "powerAndCable",
+      "area": 570512.8612267971,
+      "center": [
+        5420.639892578125,
+        3794.165771484375
+      ],
+      "bbox": [
+        5129.37890625,
+        3304.4736328125,
+        5711.90087890625,
+        4283.85791015625
+      ],
+      "is_learning_related": false,
+      "is_messy_related": true,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "cable",
+        "normalized_contour_variance": 0.16177392788124814,
+        "convexity_ratio": 0.2039357018238356,
+        "mask_area": 56926.0,
+        "aspect_ratio": 0.6164229471316085
+      }
+    },
+    {
+      "name": "folder",
+      "class": null,
+      "area": 1045240.0136852264,
+      "center": [
+        852.43896484375,
+        3977.29345703125
+      ],
+      "bbox": [
+        0.0,
+        3670.74951171875,
+        1704.8779296875,
+        4283.83740234375
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "folder",
+        "normalized_contour_variance": 0.02355342325278285,
+        "convexity_ratio": 0.9858001668024652,
+        "mask_area": 1641203.0,
+        "aspect_ratio": 0.9235917456776352
+      }
+    }
+  ],
+  "scores": {
+    "tidy": 75.41711362883146,
+    "learning": 72.24051870403406,
+    "hygiene": 86.53846153846153
+  },
+  "spatial_relations": {
+    "proximity_pairs": [
+      [
+        "mouse pad",
+        "thermos cup",
+        0.12985866943733865
+      ],
+      [
+        "mouse pad",
+        "folder",
+        0.128394967114144
+      ],
+      [
+        "mouse pad",
+        "tissue",
+        0.13022731992454795
+      ],
+      [
+        "mouse pad",
+        "mouse",
+        0.021370219350122472
+      ],
+      [
+        "thermos cup",
+        "tissue",
+        0.06788752213164112
+      ],
+      [
+        "thermos cup",
+        "mouse",
+        0.1242799859425129
+      ],
+      [
+        "paper",
+        "clock",
+        0.1883289325196071
+      ],
+      [
+        "paper",
+        "folder",
+        0.13926878967781214
+      ],
+      [
+        "folder",
+        "mouse",
+        0.12394896779854692
+      ],
+      [
+        "folder",
+        "cable",
+        0.1435475264822377
+      ],
+      [
+        "cup",
+        "clock",
+        0.12474016598913154
+      ],
+      [
+        "cup",
+        "bottle",
+        0.10570624576752041
+      ],
+      [
+        "tissue",
+        "mouse",
+        0.13576559931230772
+      ],
+      [
+        "clock",
+        "bottle",
+        0.050418701775379
+      ]
+    ],
+    "crowded_regions": [
+      {
+        "region": "center",
+        "item_count": 7,
+        "items": [
+          "mouse pad",
+          "paper",
+          "laptop",
+          "folder",
+          "cup",
+          "keyboard",
+          "mouse"
+        ]
+      },
+      {
+        "region": "left",
+        "item_count": 2,
+        "items": [
+          "clock",
+          "bottle"
+        ]
+      },
+      {
+        "region": "right",
+        "item_count": 2,
+        "items": [
+          "thermos cup",
+          "tissue"
+        ]
+      },
+      {
+        "region": "top",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "bottom",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "top_left",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "top_right",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "bottom_left",
+        "item_count": 1,
+        "items": [
+          "folder"
+        ]
+      },
+      {
+        "region": "bottom_right",
+        "item_count": 1,
+        "items": [
+          "cable"
+        ]
+      }
+    ],
+    "crowded_center": {
+      "center": [
+        3045.059586745042,
+        2467.6413496457612
+      ],
+      "item_count": 1
+    },
+    "overlap_ratio": 0.22126838296971463,
+    "position_distribution_variance": 0.018888724912074877
+  },
+  "statistics": {
+    "coverage_rate": 0.7575690815541903,
+    "messy_rate": 0.23076923076923078,
+    "learning_rate": 0.3076923076923077,
+    "dirty_rate": 0.07692307692307693,
+    "object_count": 13,
+    "sam3_analysis": {
+      "objects_analyzed": 7,
+      "avg_contour_variance": 0.07711449644823205,
+      "max_contour_variance": 0.1730908986205149,
+      "avg_convexity_ratio": 0.8363031200343982,
+      "min_convexity_ratio": 0.2039357018238356,
+      "geometry_messiness_score": 0.21970774488270484,
+      "objects_detail": [
+        {
+          "name": "paper",
+          "normalized_contour_variance": 0.12604850752305358,
+          "convexity_ratio": 0.8834905565903584,
+          "mask_area": 220559.0,
+          "aspect_ratio": 0.5076452599388379
+        },
+        {
+          "name": "folder",
+          "normalized_contour_variance": 0.02287468767073175,
+          "convexity_ratio": 0.9886999778211121,
+          "mask_area": 1631570.5,
+          "aspect_ratio": 0.9211850195640022
+        },
+        {
+          "name": "cup",
+          "normalized_contour_variance": 0.012892202887178074,
+          "convexity_ratio": 0.9460564892379507,
+          "mask_area": 379801.0,
+          "aspect_ratio": 1.0182584269662922
+        },
+        {
+          "name": "tissue",
+          "normalized_contour_variance": 0.019567827302115034,
+          "convexity_ratio": 0.9608820236544116,
+          "mask_area": 372054.0,
+          "aspect_ratio": 0.9166666666666666
+        },
+        {
+          "name": "bottle",
+          "normalized_contour_variance": 0.1730908986205149,
+          "convexity_ratio": 0.8852569243106533,
+          "mask_area": 71754.5,
+          "aspect_ratio": 1.0364464692482915
+        },
+        {
+          "name": "cable",
+          "normalized_contour_variance": 0.16177392788124814,
+          "convexity_ratio": 0.2039357018238356,
+          "mask_area": 56926.0,
+          "aspect_ratio": 0.6164229471316085
+        },
+        {
+          "name": "folder",
+          "normalized_contour_variance": 0.02355342325278285,
+          "convexity_ratio": 0.9858001668024652,
+          "mask_area": 1641203.0,
+          "aspect_ratio": 0.9235917456776352
+        }
+      ]
+    }
+  },
+  "semantic_groups": {
+    "learning": [
+      "document",
+      "scissors",
+      "book",
+      "pencil case",
+      "paper",
+      "eraser",
+      "ruler",
+      "sticky notes",
+      "paper clip",
+      "pen",
+      "stapler",
+      "calculator"
+    ],
+    "electronics": [
+      "earphone",
+      "laptop",
+      "monitor",
+      "mouse",
+      "pad",
+      "razor",
+      "tablet",
+      "watch",
+      "keyboard",
+      "headphone",
+      "phone"
+    ],
+    "powerAndCable": [
+      "charger",
+      "socket",
+      "cable",
+      "power bank"
+    ],
+    "foodAndDrink": [
+      "can",
+      "bowl",
+      "orange",
+      "carton",
+      "plastic bottle",
+      "bottle",
+      "instant noodles",
+      "waterpot",
+      "banana",
+      "disposable cup",
+      "snack box",
+      "plastic cup",
+      "food container",
+      "apple",
+      "cup",
+      "thermos cup",
+      "takeout",
+      "squeeze bottle"
+    ],
+    "garbageAndDirty": [
+      "broken items",
+      "food wrapper",
+      "straw",
+      "bottle cap",
+      "plastic bag",
+      "tissue",
+      "waste package",
+      "snack leftovers",
+      "waste paperball",
+      "debris"
+    ],
+    "smallStuff": [
+      "mouse pad",
+      "glasses",
+      "phone holder",
+      "comb",
+      "mirror",
+      "card",
+      "keys",
+      "watch",
+      "wallet"
+    ],
+    "entertainment": [
+      "toy",
+      "remote controller",
+      "gamepad"
+    ],
+    "medicine": [
+      "ointment",
+      "mask"
+    ]
+  },
+  "situation_summary": {
+    "general": "桌面上共有13个物品，覆盖率为0.76，杂乱率为0.23，学习相关物品比例为0.31，不卫生物品比例为0.08。",
+    "cleanliness": "发现1个可能的卫生风险（['tissue']）",
+    "geometry_analysis": "通过精细分割分析了7个物体的几何特征，平均轮廓方差为0.077，平均凸包率为0.836。"
+  }
+}

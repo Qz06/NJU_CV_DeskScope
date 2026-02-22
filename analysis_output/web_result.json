@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-11T22:22:23.117091",
+    "desk_area": 0,
+    "img_size": [
+      3072,
+      4096
+    ],
+    "source_json": "D:\\CODE\\CV\\cv_deskscope\\data\\refined_json\\web_refined.json"
+  },
+  "objects_raw": [
+    {
+      "name": "laptop",
+      "bbox_xyxy": [
+        1195.3450927734375,
+        704.5750122070312,
+        2565.338134765625,
+        1957.544189453125
+      ],
+      "confidence": 0.968432605266571
+    },
+    {
+      "name": "keyboard",
+      "bbox_xyxy": [
+        1026.04931640625,
+        2006.451171875,
+        2656.755615234375,
+        2599.626953125
+      ],
+      "confidence": 0.9039801955223083
+    },
+    {
+      "name": "mouse",
+      "bbox_xyxy": [
+        2558.29638671875,
+        2055.174560546875,
+        2945.205810546875,
+        2420.355224609375
+      ],
+      "confidence": 0.90297532081604
+    },
+    {
+      "name": "thermos cup",
+      "bbox_xyxy": [
+        217.213134765625,
+        1551.4505615234375,
+        742.5532836914062,
+        2286.2373046875
+      ],
+      "confidence": 0.8917575478553772
+    },
+    {
+      "name": "book",
+      "bbox_xyxy": [
+        2892.826904296875,
+        2084.893310546875,
+        4095.900390625,
+        3070.9130859375
+      ],
+      "confidence": 0.8433815836906433
+    },
+    {
+      "name": "waste paperball",
+      "bbox_xyxy": [
+        2012.162109375,
+        2490.241943359375,
+        2479.912841796875,
+        2776.970458984375
+      ],
+      "confidence": 0.7072303891181946
+    },
+    {
+      "name": "waste paperball",
+      "bbox_xyxy": [
+        2558.325927734375,
+        2467.899169921875,
+        2890.084716796875,
+        2748.692626953125
+      ],
+      "confidence": 0.5834865570068359
+    },
+    {
+      "name": "cup",
+      "bbox_xyxy": [
+        3858.35791015625,
+        1147.0389404296875,
+        4096.0,
+        1562.3275146484375
+      ],
+      "confidence": 0.3975178599357605
+    }
+  ],
+  "objects_clean": [
+    {
+      "name": "laptop",
+      "class": "electronics",
+      "area": 1716559.0546578243,
+      "center": [
+        1880.3416137695312,
+        1331.0596008300781
+      ],
+      "bbox": [
+        1195.3450927734375,
+        704.5750122070312,
+        2565.338134765625,
+        1957.544189453125
+      ],
+      "is_learning_related": true,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "keyboard",
+      "class": "electronics",
+      "area": 967295.482796669,
+      "center": [
+        1841.4024658203125,
+        2303.0390625
+      ],
+      "bbox": [
+        1026.04931640625,
+        2006.451171875,
+        2656.755615234375,
+        2599.626953125
+      ],
+      "is_learning_related": true,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "mouse",
+      "class": "electronics",
+      "area": 141291.84032559395,
+      "center": [
+        2751.7510986328125,
+        2237.764892578125
+      ],
+      "bbox": [
+        2558.29638671875,
+        2055.174560546875,
+        2945.205810546875,
+        2420.355224609375
+      ],
+      "is_learning_related": true,
+      "is_messy_related": true,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "thermos cup",
+      "class": "foodAndDrink",
+      "area": 386012.9770824984,
+      "center": [
+        479.8832092285156,
+        1918.8439331054688
+      ],
+      "bbox": [
+        217.213134765625,
+        1551.4505615234375,
+        742.5532836914062,
+        2286.2373046875
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false
+    },
+    {
+      "name": "book",
+      "class": "learning",
+      "area": 1186254.248767674,
+      "center": [
+        3494.3636474609375,
+        2577.9031982421875
+      ],
+      "bbox": [
+        2892.826904296875,
+        2084.893310546875,
+        4095.900390625,
+        3070.9130859375
+      ],
+      "is_learning_related": true,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": true,
+      "sam3_geometry": {
+        "name": "book",
+        "normalized_contour_variance": 0.0248002394138777,
+        "convexity_ratio": 0.9590376977214131,
+        "mask_area": 825789.0,
+        "aspect_ratio": 1.2350515463917526
+      }
+    },
+    {
+      "name": "waste paperball",
+      "class": "garbageAndDirty",
+      "area": 134117.47318983078,
+      "center": [
+        2246.0374755859375,
+        2633.606201171875
+      ],
+      "bbox": [
+        2012.162109375,
+        2490.241943359375,
+        2479.912841796875,
+        2776.970458984375
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": true,
+      "is_special_related": false
+    },
+    {
+      "name": "waste paperball",
+      "class": "garbageAndDirty",
+      "area": 93155.69728136063,
+      "center": [
+        2724.205322265625,
+        2608.2958984375
+      ],
+      "bbox": [
+        2558.325927734375,
+        2467.899169921875,
+        2890.084716796875,
+        2748.692626953125
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": true,
+      "is_special_related": false
+    },
+    {
+      "name": "cup",
+      "class": "foodAndDrink",
+      "area": 98690.04466557503,
+      "center": [
+        3977.178955078125,
+        1354.6832275390625
+      ],
+      "bbox": [
+        3858.35791015625,
+        1147.0389404296875,
+        4096.0,
+        1562.3275146484375
+      ],
+      "is_learning_related": false,
+      "is_messy_related": false,
+      "is_dirty_related": false,
+      "is_special_related": false,
+      "sam3_geometry": {
+        "name": "cup",
+        "normalized_contour_variance": 0.08895864863657434,
+        "convexity_ratio": 0.9113482206727744,
+        "mask_area": 52870.5,
+        "aspect_ratio": 0.5326876513317191
+      }
+    }
+  ],
+  "scores": {
+    "tidy": 85.02099310610043,
+    "learning": 91.75629793183013,
+    "hygiene": 68.75
+  },
+  "spatial_relations": {
+    "proximity_pairs": [
+      [
+        "laptop",
+        "keyboard",
+        0.1899920181958112
+      ],
+      [
+        "keyboard",
+        "mouse",
+        0.17825894327962385
+      ],
+      [
+        "keyboard",
+        "waste paperball",
+        0.10205038395140556
+      ],
+      [
+        "keyboard",
+        "waste paperball",
+        0.18243929537767084
+      ],
+      [
+        "mouse",
+        "book",
+        0.15953187465648083
+      ],
+      [
+        "mouse",
+        "waste paperball",
+        0.12543208556367177
+      ],
+      [
+        "mouse",
+        "waste paperball",
+        0.07256904105968914
+      ],
+      [
+        "book",
+        "waste paperball",
+        0.15053862975037188
+      ],
+      [
+        "waste paperball",
+        "waste paperball",
+        0.0935228981544203
+      ]
+    ],
+    "crowded_regions": [
+      {
+        "region": "center",
+        "item_count": 3,
+        "items": [
+          "laptop",
+          "keyboard",
+          "mouse"
+        ]
+      },
+      {
+        "region": "left",
+        "item_count": 1,
+        "items": [
+          "thermos cup"
+        ]
+      },
+      {
+        "region": "right",
+        "item_count": 1,
+        "items": [
+          "cup"
+        ]
+      },
+      {
+        "region": "top",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "bottom",
+        "item_count": 2,
+        "items": [
+          "waste paperball",
+          "waste paperball"
+        ]
+      },
+      {
+        "region": "top_left",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "top_right",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "bottom_left",
+        "item_count": 0,
+        "items": []
+      },
+      {
+        "region": "bottom_right",
+        "item_count": 1,
+        "items": [
+          "book"
+        ]
+      }
+    ],
+    "crowded_center": {
+      "center": [
+        2424.3954734802246,
+        2120.649501800537
+      ],
+      "item_count": 4
+    },
+    "overlap_ratio": 0.02490958949149686,
+    "position_distribution_variance": 0.03544562891188075
+  },
+  "statistics": {
+    "coverage_rate": 0.36594827969868976,
+    "messy_rate": 0.125,
+    "learning_rate": 0.5,
+    "dirty_rate": 0.25,
+    "object_count": 8,
+    "sam3_analysis": {
+      "objects_analyzed": 2,
+      "avg_contour_variance": 0.05687944402522602,
+      "max_contour_variance": 0.08895864863657434,
+      "avg_convexity_ratio": 0.9351929591970938,
+      "min_convexity_ratio": 0.9113482206727744,
+      "geometry_messiness_score": 0.13968170437161453,
+      "objects_detail": [
+        {
+          "name": "book",
+          "normalized_contour_variance": 0.0248002394138777,
+          "convexity_ratio": 0.9590376977214131,
+          "mask_area": 825789.0,
+          "aspect_ratio": 1.2350515463917526
+        },
+        {
+          "name": "cup",
+          "normalized_contour_variance": 0.08895864863657434,
+          "convexity_ratio": 0.9113482206727744,
+          "mask_area": 52870.5,
+          "aspect_ratio": 0.5326876513317191
+        }
+      ]
+    }
+  },
+  "semantic_groups": {
+    "learning": [
+      "pencil case",
+      "ruler",
+      "scissors",
+      "book",
+      "pen",
+      "calculator",
+      "paper",
+      "stapler",
+      "document",
+      "paper clip",
+      "sticky notes",
+      "eraser"
+    ],
+    "electronics": [
+      "mouse",
+      "watch",
+      "razor",
+      "laptop",
+      "tablet",
+      "pad",
+      "keyboard",
+      "phone",
+      "earphone",
+      "monitor",
+      "headphone"
+    ],
+    "powerAndCable": [
+      "cable",
+      "charger",
+      "power bank",
+      "socket"
+    ],
+    "foodAndDrink": [
+      "instant noodles",
+      "banana",
+      "orange",
+      "snack box",
+      "bottle",
+      "cup",
+      "apple",
+      "plastic cup",
+      "disposable cup",
+      "carton",
+      "thermos cup",
+      "food container",
+      "squeeze bottle",
+      "takeout",
+      "waterpot",
+      "plastic bottle",
+      "can",
+      "bowl"
+    ],
+    "garbageAndDirty": [
+      "food wrapper",
+      "debris",
+      "plastic bag",
+      "tissue",
+      "straw",
+      "waste paperball",
+      "snack leftovers",
+      "waste package",
+      "broken items",
+      "bottle cap"
+    ],
+    "smallStuff": [
+      "watch",
+      "keys",
+      "glasses",
+      "mirror",
+      "card",
+      "wallet",
+      "comb",
+      "phone holder",
+      "mouse pad"
+    ],
+    "entertainment": [
+      "toy",
+      "remote controller",
+      "gamepad"
+    ],
+    "medicine": [
+      "mask",
+      "ointment"
+    ]
+  },
+  "situation_summary": {
+    "general": "桌面上共有8个物品，覆盖率为0.37，杂乱率为0.12，学习相关物品比例为0.50，不卫生物品比例为0.25。",
+    "cleanliness": "发现2个可能的卫生风险（['waste paperball', 'waste paperball']）",
+    "geometry_analysis": "通过精细分割分析了2个物体的几何特征，平均轮廓方差为0.057，平均凸包率为0.935。"
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "priority": "高优先级",
+    "content": "**立刻把保温杯移到远离电子设备的地方**",
+    "completed": false
+  },
+  {
+    "priority": "高优先级",
+    "content": "**清理右侧操作区，移走纸巾或换位置**",
+    "completed": false
+  },
+  {
+    "priority": "中优先级",
+    "content": "**整理那张大纸**",
+    "completed": false
+  },
+  {
+    "priority": "中优先级",
+    "content": "**收纳线缆**",
+    "completed": false
+  },
+  {
+    "priority": "低优先级",
+    "content": "**统一左侧小物**",
+    "completed": false
+  }
+]

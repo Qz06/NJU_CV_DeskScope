@@ -1,0 +1,83 @@
+{
+  "zones": [
+    {
+      "id": 0,
+      "zone_type": "饮食区",
+      "icon": "",
+      "center": [
+        1117.3140767415364,
+        1095.3999972873264
+      ],
+      "object_count": 9,
+      "objects": [
+        "instant noodles",
+        "instant noodles",
+        "orange",
+        "orange",
+        "cup",
+        "plastic bottle",
+        "carton",
+        "sticky notes",
+        "bottle"
+      ],
+      "category_distribution": {
+        "food_zone": 0.7777777777777778,
+        "unclean_zone": 0.1111111111111111,
+        "study_zone": 0.1111111111111111
+      },
+      "is_singleton": false,
+      "source": "dbscan"
+    },
+    {
+      "id": 1,
+      "zone_type": "杂物区",
+      "icon": "",
+      "center": [
+        1074.1976143973213,
+        891.7356480189732
+      ],
+      "object_count": 7,
+      "objects": [
+        "laptop",
+        "lamp",
+        "cable",
+        "mobile phone",
+        "charger",
+        "socket",
+        "charger"
+      ],
+      "category_distribution": {
+        "work_zone": 0.2857142857142857,
+        "sundries_zone": 0.5714285714285714,
+        "relax_zone": 0.14285714285714285
+      },
+      "is_singleton": false,
+      "source": "dbscan"
+    },
+    {
+      "id": 2,
+      "zone_type": "学习区",
+      "icon": "",
+      "center": [
+        1359.8682250976562,
+        714.419189453125
+      ],
+      "object_count": 1,
+      "objects": [
+        "book"
+      ],
+      "category_distribution": {
+        "study_zone": 1.0
+      },
+      "is_singleton": true,
+      "source": "isolated"
+    }
+  ],
+  "params": {
+    "n_objects": 17,
+    "eps": 0.3430761042046301,
+    "min_samples": 2,
+    "position_weight": 0.75,
+    "n_zones": 3
+  }
+}
